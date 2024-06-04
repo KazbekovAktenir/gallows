@@ -3,7 +3,7 @@ import WordDisplay from "./components/WordDisplay";
 import LetterInput from "./components/LetterInput";
 
 const App = () => {
-  const [word, setWord] = useState("javascript"); //слово которое нужно угадать
+  const [word, setWord] = useState("react"); //слово которое нужно угадать
   //arrLetters - массив с буквами, которые игрок уже угадал
   const [arrLetters, setArrLetters] = useState([]);
   //wrong - количество неправильных попыток
